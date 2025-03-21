@@ -1,0 +1,118 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+
+  min-height: 100vh;
+}
+
+.titulo1 {
+  border: 3px solid yellow;
+  color: rgb(249, 249, 250);
+  padding: 200px;
+  background: url(./assets/imagenes/imagen1.jpg);
+  height: 450px;
+  display: grid;
+  place-items: center;
+  margin: -14px;
+}
+
+hr {
+  border: 1px solid #ffffff;
+  width: 100%;
+  margin: 10px;
+}
+
+.precio button {
+  display: flex;
+  text-align: end;
+}
+
+.menuNavegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 11px;
+  background-color: black;
+  color: aliceblue;
+  margin: 15px 0px;
+}
+
+.logos {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.precio {
+  margin-left: auto;
+  background-color: #000000;
+  border: 1px solid aqua;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: aqua;
+}
+
+.tabla {
+  color: blue;
+}
+
+/* props */
+
+.todo {
+  border: 2px solid blue;
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.card-pizzas {
+  border: 2px solid red;
+}
+
+.seccionImagen {
+  border: 1px solid gray;
+}
+
+.seccionIngredientes {
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.seccionValor {
+  border: 1px solid gray;
+}
+
+.valor {
+  text-align: center;
+}
+
+.botones {
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.pie {
+  background-color: #000000;
+  border: 4px solid yellow;
+  text-align: center;
+  padding: 20px;
+  color: aliceblue;
+}
